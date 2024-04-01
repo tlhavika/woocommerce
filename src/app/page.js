@@ -8,17 +8,15 @@ export default function Home() {
     <>
       <Hero />
       <HomeMenu />
-      <section className="text-center my-16" id="about">
+      {/* <section className="text-center my-16" id="about">
         <SectionHeaders
           subHeader={'Nossa História'}
           mainHeader={'Sobre Nós'}
         />
         <div className="text-gray-500 max-w-md mx-auto mt-4 flex flex-col gap-4">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni minima odit recusandae. Illum ipsa non repudiandae? Eum ipsam iste quos suscipit tempora? Aperiam esse fugiat inventore laboriosam officiis quam rem!
+          Nossa empresa é líder no fornecimento de soluções energéticas renováveis, com foco especializado em painéis solares e equipamentos relacionados. Estamos comprometidos em impulsionar a transição global para uma economia de baixo carbono, fornecendo produtos e serviços de alta qualidade que capacitam indivíduos, empresas e comunidades a adotarem fontes de energia limpa e sustentável.
           </p>
-          <p>At consectetur delectus ducimus est facere iure molestias obcaecati quaerat vitae voluptate? Aspernatur dolor explicabo iste minus molestiae pariatur provident quibusdam saepe?</p>
-          <p>Laborum molestias neque nulla obcaecati odio quia quod reprehenderit sit vitae voluptates? Eos, tenetur.</p>
         </div>
       </section>
       <section className="text-center my-8" id="contact">
@@ -27,11 +25,11 @@ export default function Home() {
           mainHeader={'Contacte-nos'}
         />
         <div className="mt-8">
-          <a className="text-4xl underline text-gray-500" href="tel:+46738123123">
-            (+258) 82 000 0000
+          <a className="text-4xl underline text-gray-500" href="tel:(+258) 86 551 7841">
+            (+258) 86 551 7841
           </a>
         </div>
-      </section> 
+      </section>  */}
     </>
   )
 }

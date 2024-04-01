@@ -28,7 +28,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="relative hidden md:block">
-        <Image src={'/tlhavika1.png'} layout={'fill'} objectFit={'contain'} alt={'pizza'} />
+        <Image src={'/tlhavika1.png'} layout={'fill'} fill={true} objectFit={'contain'} alt={'Tlhavika'} />
       </div>
     </section>
   );

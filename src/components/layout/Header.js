@@ -71,8 +71,8 @@ export default function Header() {
           className="md:hidden p-4 bg-gray-200 rounded-lg mt-2 flex flex-col gap-2 text-center">
           <Link href={'/'}>Inicio</Link>
           <Link href={'/menu'}>Menu</Link>
-          <Link href={'/#about'}>Sobre</Link>
-          <Link href={'/#contact'}>Contactos</Link>
+          <Link href={'/about'}>Sobre</Link>
+          <Link href={'/contact'}>Contactos</Link>
           <AuthLinks status={status} userName={userName} />
         </div>
       )}
@@ -83,8 +83,8 @@ export default function Header() {
           </Link>
           <Link href={'/'}>Inicio</Link>
           <Link href={'/menu'}>Menu</Link>
-          <Link href={'/#about'}>Sobre</Link>
-          <Link href={'/#contact'}>Contactos</Link>
+          <Link href={'/about'}>Sobre</Link>
+          <Link href={'/contact'}>Contactos</Link>
         </nav>
         <nav className="flex items-center gap-4 text-gray-500 font-semibold">
           <AuthLinks status={status} userName={userName} />
