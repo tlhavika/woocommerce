@@ -8,6 +8,7 @@ export default function ContactPage() {
   return (
     <section className="mt-8">
         <Image src={'/contactosPage.png'} 
+        alt="Contacto"
         width="0"
         height="0"
         sizes="100vw"

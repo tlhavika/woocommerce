@@ -8,6 +8,7 @@ export default function AboutPage() {
   return (
     <section className="mt-8">
     <Image src={'/tlhavikaFundo.jpg'} 
+    alt="Logo"
     width="0"
     height="0"
     sizes="100vw"

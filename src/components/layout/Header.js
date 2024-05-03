@@ -88,8 +88,8 @@ export default function Header() {
         </nav>
 
         <nav className="flex items-center gap-4 text-gray-500 font-semibold">
-          <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">
-            Solicitar Cotação
+          <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">            
+            <Link href="https://api.whatsapp.com/send?phone=258871191481">Solicitar Cotação</Link>
             <Right />
           </button>
         </nav>

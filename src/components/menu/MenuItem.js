@@ -1,7 +1,7 @@
 import Right from "@/components/icons/Right";
 import Image from "next/image";
 import Carouselt from "@/components/menu/Carosel";
-
+import Link from "next/link";
 export default function MenuItem() { 
   return (
     <>
@@ -18,8 +18,8 @@ export default function MenuItem() {
         </div>
         <div className="flex-none w-40 mr-4">
           <small className="text-primary font-bold">Placa Solar Modulo Fotovoltaico 550w Era Solar Bifacial</small>
-          <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">
-            Add
+          <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">            
+            <Link href="https://api.whatsapp.com/send?phone=258871191481">Solicitar</Link>
             <Right />
           </button>
         </div>
@@ -52,8 +52,8 @@ export default function MenuItem() {
         </div>
         <div className="flex-none w-40 mr-4">
           <small className="text-primary font-bold">Inversor Solar 5kW 220v</small>
-          <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">
-            Add
+          <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">            
+            <Link href="https://api.whatsapp.com/send?phone=258871191481">Solicitar</Link>
             <Right />
           </button>
         </div>
@@ -85,8 +85,8 @@ export default function MenuItem() {
         </div>
         <div className="flex-none w-40 mr-4">
           <small className="text-primary font-bold mx-4">Bateria Estacionaria 220ah Gel</small>
-          <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">
-            Add
+          <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">            
+            <Link href="https://api.whatsapp.com/send?phone=258871191481">Solicitar</Link>
             <Right />
           </button>
         </div>
@@ -100,7 +100,7 @@ export default function MenuItem() {
         </div>
         <div className="flex flex-col w-1/2">
           <small>Antes de comprar BATERIA EXTREME POWER ou SUPER SOM, fique atento nas dicas abaixo, para não cair em golpes e ter prejuízos!</small>
-          <small>As baterias SUPERSOM contam com a tecnologia AGM (Absorbent Glass Matt), que em português significa "separador de fibra de vidro absorvente", 
+          <small>As baterias SUPERSOM contam com a tecnologia AGM (Absorbent Glass Matt), que em português significa separador de fibra de vidro absorvente, 
             tem como característica principal a absorção total da solução ácida (eletrólito) em seus separadores. Com isso, as placas fazem o contato com a solução ácida através do separador, 
             proporcionando muito mais durabilidade e performance que as baterias convencionais, além de serem mais resistentes à corrosão e à vibração, e mais seguras para você, por evitar o manuseio e 
             vazamento de ácido. Podem ser usadas em qualquer posição!</small>
@@ -116,8 +116,8 @@ export default function MenuItem() {
         </div>
         <div className="flex-none w-40 mr-4">
           <small className="text-primary font-bold mr-4">Cabo Fotovoltaico 4mm Energia Solar 30m Vermelho + 30m Preto</small>
-          <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">
-            Add
+          <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">            
+            <Link href="https://api.whatsapp.com/send?phone=258871191481">Solicitar</Link>
             <Right />
           </button>
         </div>
