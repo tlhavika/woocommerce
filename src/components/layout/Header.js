@@ -5,7 +5,7 @@ import ShoppingCart from "@/components/icons/ShoppingCart";
 import {signOut, useSession} from "next-auth/react";
 import Link from "next/link";
 import {useContext, useState} from "react";
-
+import Right from "@/components/icons/Right";
 function AuthLinks({status, userName}) {
   if (status === 'authenticated') {
     return (
@@ -44,7 +44,7 @@ export default function Header() {
     userName = userName.split(' ')[0];
   }
   return (
-    <header>
+    <header className="max-w-6xl mx-auto">
       <div className="flex items-center md:hidden justify-between">
         <Link className="text-primary font-semibold text-2xl" href={'/'}>
           TLHAVIKA 
@@ -86,16 +86,12 @@ export default function Header() {
           <Link href={'/about'}>Sobre</Link>
           <Link href={'/contact'}>Contactos</Link>
         </nav>
+
         <nav className="flex items-center gap-4 text-gray-500 font-semibold">
-          <AuthLinks status={status} userName={userName} />
-          <Link href={'/cart'} className="relative">
-            <ShoppingCart />
-            {cartProducts?.length > 0 && (
-              <span className="absolute -top-2 -right-4 bg-primary text-white text-xs py-1 px-1 rounded-full leading-3">
-            {cartProducts.length}
-          </span>
-            )}
-          </Link>
+          <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">
+            Solicitar Cotação
+            <Right />
+          </button>
         </nav>
       </div>
     </header>

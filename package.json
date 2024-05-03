@@ -21,6 +21,7 @@
     "react-dom": "^18",
     "react-flying-item": "^1.1.2",
     "react-hot-toast": "^2.4.1",
+    "react-responsive-carousel": "^3.2.23",
     "stripe": "^14.3.0",
     "uniqid": "^5.4.0"
   },
