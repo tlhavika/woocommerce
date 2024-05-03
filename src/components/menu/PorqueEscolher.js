@@ -4,7 +4,7 @@ export default function PorqueEscolher() {
     <>
     <section className="max-w-6xl mx-auto mt-8">
         <div className="grid sm:grid-cols-2 gap-4 mt-2">
-            <div className="p-2">
+            <div>
             <small className="text-primary font-bold text-2xl italic">Por Quê Escolher-Nos</small><br/>
                     <small>Oferecemos produtos de alta qualidade a preços acessíveis com backup e pós-serviço. Nossos produtos possuem uma excelente garantia para a tranquilidade do cliente.</small>
                     <div className="flex flex-col justify-center content-center">
@@ -32,7 +32,7 @@ export default function PorqueEscolher() {
                         </div>
                     </div>              
             </div>
-            <div className="p-2">
+            <div>
                 <small className="text-primary font-bold text-sm italic">Contacte-nos</small>
                 <br/>
                     <label>Nome</label>
