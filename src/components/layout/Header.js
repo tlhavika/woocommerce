@@ -70,7 +70,7 @@ export default function Header() {
           onClick={() => setMobileNavOpen(false)}
           className="md:hidden p-4 bg-gray-200 rounded-lg mt-2 flex flex-col gap-2 text-center">
           <Link href={'/'}>Inicio</Link>
-          <Link href={'/menu'}>Menu</Link>
+          {/* <Link href={'/menu'}>Menu</Link> */}
           <Link href={'/about'}>Sobre</Link>
           <Link href={'/contact'}>Contactos</Link>
           <AuthLinks status={status} userName={userName} />
@@ -82,7 +82,7 @@ export default function Header() {
           TLHAVIKA
           </Link>
           <Link href={'/'}>Inicio</Link>
-          <Link href={'/menu'}>Menu</Link>
+          {/* <Link href={'/menu'}>Menu</Link> */}
           <Link href={'/about'}>Sobre</Link>
           <Link href={'/contact'}>Contactos</Link>
         </nav>

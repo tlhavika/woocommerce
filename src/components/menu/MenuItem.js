@@ -18,10 +18,12 @@ export default function MenuItem() {
         </div>
         <div className="flex-none w-40 mr-4">
           <small className="text-primary font-bold">Placa Solar Modulo Fotovoltaico 550w Era Solar Bifacial</small>
-          <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">            
-            <Link href="https://api.whatsapp.com/send?phone=258871191481">Solicitar</Link>
-            <Right />
-          </button>
+          <Link href="https://api.whatsapp.com/send?phone=258871191481">
+                <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">            
+                  Solicitar
+                  <Right />
+                </button>
+            </Link>  
         </div>
         <div className="flex flex-col w-1/4">
           <small className="font-bold">Marca: ERA SOLAR</small>
@@ -52,10 +54,12 @@ export default function MenuItem() {
         </div>
         <div className="flex-none w-40 mr-4">
           <small className="text-primary font-bold">Inversor Solar 5kW 220v</small>
-          <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">            
-            <Link href="https://api.whatsapp.com/send?phone=258871191481">Solicitar</Link>
-            <Right />
-          </button>
+          <Link href="https://api.whatsapp.com/send?phone=258871191481">
+                <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">            
+                  Solicitar
+                  <Right />
+                </button>
+            </Link>  
         </div>
         <div className="flex flex-col w-1/4">
           <small className="font-bold">Potência Máxima de Operação: 5000 W</small>
@@ -85,10 +89,12 @@ export default function MenuItem() {
         </div>
         <div className="flex-none w-40 mr-4">
           <small className="text-primary font-bold mx-4">Bateria Estacionaria 220ah Gel</small>
-          <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">            
-            <Link href="https://api.whatsapp.com/send?phone=258871191481">Solicitar</Link>
-            <Right />
-          </button>
+          <Link href="https://api.whatsapp.com/send?phone=258871191481">
+                <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">            
+                  Solicitar
+                  <Right />
+                </button>
+            </Link>  
         </div>
         <div className="flex flex-col w-1/4">
           <small className="font-bold">Marca: Super Som</small>
@@ -116,10 +122,12 @@ export default function MenuItem() {
         </div>
         <div className="flex-none w-40 mr-4">
           <small className="text-primary font-bold mr-4">Cabo Fotovoltaico 4mm Energia Solar 30m Vermelho + 30m Preto</small>
-          <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">            
-            <Link href="https://api.whatsapp.com/send?phone=258871191481">Solicitar</Link>
-            <Right />
-          </button>
+            <Link href="https://api.whatsapp.com/send?phone=258871191481">
+                <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">            
+                  Solicitar
+                  <Right />
+                </button>
+            </Link>          
         </div>
         <div className="flex flex-col w-1/4">
           <small className="font-bold">Marca: New Cabos</small>

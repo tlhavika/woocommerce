@@ -7,12 +7,6 @@ export default function AboutPage() {
   const [menuItems, setMenuItems] = useState([]);
   return (
     <section className="mt-8">
-    <Image src={'/tlhavikaFundo.jpg'} 
-    alt="Logo"
-    width="0"
-    height="0"
-    sizes="100vw"
-    className="w-full h-auto"/>
       <h3 className="text-primary font-semibold mt-4">Sobre Nós</h3>
       <hr/>
       <p className="text-justify">Nossa empresa é líder no fornecimento de soluções energéticas renováveis, com foco especializado em painéis solares e equipamentos relacionados. Estamos comprometidos em impulsionar a transição global para uma economia de baixo carbono, fornecendo produtos e serviços de alta qualidade que capacitam indivíduos, empresas e comunidades a adotarem fontes de energia limpa e sustentável.</p>

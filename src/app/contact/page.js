@@ -7,12 +7,6 @@ export default function ContactPage() {
   const [menuItems, setMenuItems] = useState([]);
   return (
     <section className="mt-8">
-        <Image src={'/contactosPage.png'} 
-        alt="Contacto"
-        width="0"
-        height="0"
-        sizes="100vw"
-        className="w-full h-auto"/>
         <div className="grid sm:grid-cols-3 gap-4 mt-2">
             <div className="shadow-md p-2">
                 <div className="text-center text-primary font-semibold">Endereço</div>
