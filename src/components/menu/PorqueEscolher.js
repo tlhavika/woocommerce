@@ -2,9 +2,9 @@ import Right from "@/components/icons/Right";
 export default function PorqueEscolher() { 
   return (
     <>
-    <section className="max-w-6xl mx-auto mt-8">
+    <section className="max-w-4xl mx-auto mt-8">
         <div className="grid sm:grid-cols-2 gap-4 mt-2">
-            <div>
+            <div className="mx-8">
             <small className="text-primary font-bold text-2xl italic">Por Quê Escolher-Nos</small><br/>
                     <small>Oferecemos produtos de alta qualidade a preços acessíveis com backup e pós-serviço. Nossos produtos possuem uma excelente garantia para a tranquilidade do cliente.</small>
                     <div className="flex flex-col justify-center content-center">
@@ -32,7 +32,7 @@ export default function PorqueEscolher() {
                         </div>
                     </div>              
             </div>
-            <div>
+            <div className="mx-8">
                 <small className="text-primary font-bold text-sm italic">Contacte-nos</small>
                 <br/>
                     <label>Nome</label>
