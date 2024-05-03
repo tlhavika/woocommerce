@@ -2,11 +2,10 @@ import Right from "@/components/icons/Right";
 export default function PorqueEscolher() { 
   return (
     <>
-     <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col justify-center content-center">
-            <div className="flex mt-4 mb-2">
-                <div className="flex flex-col w-1/2">
-                    <small className="text-primary font-bold text-2xl italic">Por Quê Escolher-Nos</small>
+    <section className="max-w-6xl mx-auto mt-8">
+        <div className="grid sm:grid-cols-2 gap-4 mt-2">
+            <div className="p-2">
+            <small className="text-primary font-bold text-2xl italic">Por Quê Escolher-Nos</small><br/>
                     <small>Oferecemos produtos de alta qualidade a preços acessíveis com backup e pós-serviço. Nossos produtos possuem uma excelente garantia para a tranquilidade do cliente.</small>
                     <div className="flex flex-col justify-center content-center">
                         <div className="flex mt-4 mb-2">
@@ -31,10 +30,11 @@ export default function PorqueEscolher() {
                                 <small>Caso você precise de assistência com aplicações básicas de produtos, nós podemos ajudar.</small>
                             </div>
                         </div>
-                    </div>  
-                </div>
-                <div className="flex flex-col w-1/3 ml-2">
-                    <small className="text-primary font-bold text-sm italic">Contacte-nos</small>
+                    </div>              
+            </div>
+            <div className="p-2">
+                <small className="text-primary font-bold text-sm italic">Contacte-nos</small>
+                <br/>
                     <label>Nome</label>
                     <input
                         type="text"
@@ -58,11 +58,10 @@ export default function PorqueEscolher() {
                     </textarea>
                     <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">
                         Enviar
-                    </button>
-                </div>
+                    </button>   
             </div>
-        </div>  
-    </div>
+        </div>
+      </section>
     </>
   );
 }
