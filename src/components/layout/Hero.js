@@ -17,7 +17,6 @@ export default function Hero() {
           Tlhavika é a peça que faltava para completar cada dia da sua vida, uma alegria de vida simples e com mais brilho
         </p>
         <div className="flex gap-4 text-sm">
-         
           <button className="flex items-center border-0 gap-2 py-2 text-gray-600 font-semibold">
             Saiba mais..
             <Right />
