@@ -23,7 +23,7 @@ export default function MenuItem() {
         <div className="grid sm:grid-cols-4 gap-4 mt-2">
             <div className="shadow-md p-2">
               <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-full flex justify-centes text-center flex items-center">
-                <small className="flex text-center font-bold ml-2 w-full">Preço: 8.000,00 Mt</small>
+                <small className="flex text-center font-bold ml-2 w-full">Preço: 8.000,00 Mt (+IVA)</small>
               </div>
               <Image  src={'/Painel Solar JA 440W.jpeg'}
               width="0"
@@ -40,7 +40,7 @@ export default function MenuItem() {
             </div>
             <div className="shadow-md p-2">
               <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-full flex justify-centes text-center flex items-center">
-                <small className="flex text-center font-bold ml-2">Preço: 33.000,00 Mt</small>
+                <small className="flex text-center font-bold ml-2">Preço: 33.000,00 Mt (+IVA)</small>
               </div>
               <Image  src={'/Inversor 3200w VITO.jpeg'}
                 width="0"
@@ -57,7 +57,7 @@ export default function MenuItem() {
             </div>
             <div className="shadow-md p-2">
               <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-full flex justify-centes text-center flex items-center">
-                <small className="flex text-center font-bold ml-2">Preço: 13.500,00 Mt</small>
+                <small className="flex text-center font-bold ml-2">Preço: 13.500,00 Mt (+IVA)</small>
               </div>
                 <Image  src={'/Growcol-51.8V.jpg'}
                   width="0"
@@ -74,7 +74,7 @@ export default function MenuItem() {
             </div>
             <div className="shadow-md p-2">
               <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-full flex justify-centes text-center flex items-center">
-                <small className="flex text-center font-bold ml-2">Preço: 80,00 Mt (p/m)</small>
+                <small className="flex text-center font-bold ml-2">Preço: 80,00 Mt (+IVA) (p/m)</small>
               </div>
                 <Image  src={'/Solar-Cables.jpg'}
                   width="0"
@@ -95,7 +95,7 @@ export default function MenuItem() {
         <div className="grid sm:grid-cols-4 gap-4 mt-2">
             <div className="shadow-md p-2">
               <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-full flex justify-centes text-center flex items-center">
-                <small className="flex text-center font-bold ml-2">Preço: 200,00 Mt p/m</small>
+                <small className="flex text-center font-bold ml-2">Preço: 200,00 Mt (+IVA) p/m</small>
               </div>
               <Image  src={'/GC16MMBC-BATTERY-CABLE-16MM-RED-GC-Solar.webp'}
               width="0"
@@ -112,7 +112,7 @@ export default function MenuItem() {
             </div>
             <div className="shadow-md p-2">
               <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-full flex justify-centes text-center flex items-center">
-                <small className="flex text-center font-bold ml-2">Preço: 200,00 Mt p/m</small>
+                <small className="flex text-center font-bold ml-2">Preço: 200,00 Mt (+IVA) p/m</small>
               </div>
               <Image  src={'/BATT35MM-BATTERY-CABLE-35MM-RED-GC-Solar-Black.webp'}
               width="0"
@@ -129,9 +129,9 @@ export default function MenuItem() {
             </div>
             <div className="shadow-md p-2">
               <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-full flex justify-centes text-center flex items-center">
-                <small className="flex text-center font-bold ml-2">Preço: 3.000,00 Mt</small>
+                <small className="flex text-center font-bold ml-2">Preço: 3.000,00 Mt (+IVA)</small>
               </div>
-                <Image  src={'/Controlador de Carga 50ah.webp'}
+                <Image  src={'/Controlador de Carga 50 Ah.jpeg'}
                   width="0"
                   height="0"
                   sizes="100vw"
@@ -146,9 +146,9 @@ export default function MenuItem() {
             </div>
             <div className="shadow-md p-2">
               <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-full flex justify-centes text-center flex items-center">
-                <small className="flex text-center font-bold ml-2">Preço: 24.000,00 Mt</small>
+                <small className="flex text-center font-bold ml-2">Preço: 24.000,00 Mt (+IVA)</small>
               </div>
-                <Image  src={'/Bateria de Gel AGM Solar KLC12V.jpeg'}
+                <Image  src={'/Bateria de Gel AGM Solar KLC 12V.jpeg'}
                   width="0"
                   height="0"
                   sizes="100vw"
