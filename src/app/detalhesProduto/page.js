@@ -342,7 +342,7 @@ const listaProdutos = [
     img: "/Inversor monofásico Growatt FPS 5000 ES.jpeg",
     descricao:
       "Growatt FPS 5000 ES (Frequência de energia solar) é um tipo de inversor solar híbrido projetado para uso em sistemas de energia solar residenciais e comerciais. É uma combinação de um inversor, um carregador de bateria e uma chave de transferência que gerencia o fluxo de energia entre os painéis solares, as baterias e a rede elétrica. O inversor Growatt SPF é conhecido por sua alta eficiência, confiabilidade e flexibilidade. Ele pode funcionar com sistemas solares on-grid e off-grid e pode ser usado para energia de backup durante quedas de energia. Ele também possui uma variedade de recursos, como um controlador de carga MPPT integrado, display LCD e recursos de monitoramento remoto por meio de um aplicativo móvel. Inversor monofásico fora da rede projetado para aplicações residenciais e pequenas indústrias. Capacidades disponíveis: 3.5kW, 5kW. O inversor também está equipado com uma variedade de recursos avançados que facilitam a instalação e o uso. Possui uma interface amigável que permite aos proprietários e instaladores monitorar o desempenho do sistema e ajustar as configurações conforme necessário. O inversor também é compatível com uma variedade de sistemas de monitoramento, incluindo WiFi, Ethernet e GPRS.",
-    preco: "52.500,00 Mt",
+    preco: "55.000,00 Mt",
     categoria: "Inversor",
     propriedades: "Potência MÁX: 6000 W",
     propriedades1: "Intensidade de corrente: 80 A",
