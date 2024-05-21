@@ -23,14 +23,14 @@ export default function MenuItem() {
         <div className="grid sm:grid-cols-4 gap-4 mt-2">
             <div className="shadow-md p-2">
               <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-full flex justify-centes text-center flex items-center">
-                <small className="flex text-center font-bold ml-2 w-full">Preço: 15.000,00 Mt</small>
+                <small className="flex text-center font-bold ml-2 w-full">Preço: 8.000,00 Mt</small>
               </div>
-              <Image  src={'/paineis.png'}
+              <Image  src={'/Painel Solar JA 440W.jpeg'}
               width="0"
               height="0"
               sizes="100vw"
               className="w-full h-auto" alt={'sallad'} />
-              <small className="text-primary font-bold">Growcol 30W mono</small>
+              <small className="text-primary font-bold">Painel Solar JA 440W</small>
               <Link href="https://api.whatsapp.com/send?phone=258871191481" onClick={() => setIdProduto("0")}>
                   <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">            
                     Detalhes
@@ -40,14 +40,14 @@ export default function MenuItem() {
             </div>
             <div className="shadow-md p-2">
               <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-full flex justify-centes text-center flex items-center">
-                <small className="flex text-center font-bold ml-2">Preço: 25.000,00 Mt</small>
+                <small className="flex text-center font-bold ml-2">Preço: 33.000,00 Mt</small>
               </div>
-              <Image  src={'/Growcol-hybrid.png'}
+              <Image  src={'/Inversor 3200w VITO.jpeg'}
                 width="0"
                 height="0"
                 sizes="100vw"
                 className="w-full h-auto" alt={'sallad'} />
-                <small className="text-primary font-bold">Growcol hybrid inverter 8Kw 48V + wifi</small>
+                <small className="text-primary font-bold">Inversor 3200w VITO</small>
                 <Link href="https://api.whatsapp.com/send?phone=258871191481" onClick={() => setIdProduto("1")}>
                     <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">            
                     Detalhes
