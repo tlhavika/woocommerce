@@ -834,7 +834,9 @@ export default function TodosProdutos() {
                     <div className="shadow-md p-2">
                         {select.categoria === categoriaClicked && (
                             <>
-                                <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-full flex justify-centes text-center flex items-center"><small className="flex text-center font-bold ml-2">Preço: {select.preco}</small></div>
+                                <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-full flex justify-centes text-center flex items-center">
+                                  <small className="flex text-center font-bold ml-2">Preço: {select.preco}</small>
+                                </div>
                                 <Image  src={select.img}
                                 width="0"
                                 height="0"

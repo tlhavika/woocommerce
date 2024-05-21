@@ -22,7 +22,9 @@ export default function MenuItem() {
       <section className="mt-8">
         <div className="grid sm:grid-cols-4 gap-4 mt-2">
             <div className="shadow-md p-2">
-              <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-1/2 flex justify-centes text-center flex items-center"><small className="flex text-center font-bold ml-2">Preço: 15.000,00 Mt</small></div>
+              <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-full flex justify-centes text-center flex items-center">
+                <small className="flex text-center font-bold ml-2 w-full">Preço: 15.000,00 Mt</small>
+              </div>
               <Image  src={'/paineis.png'}
               width="0"
               height="0"
@@ -37,7 +39,9 @@ export default function MenuItem() {
               </Link> 
             </div>
             <div className="shadow-md p-2">
-              <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-1/2 flex justify-centes text-center flex items-center"><small className="flex text-center font-bold ml-2">Preço: 25.000,00 Mt</small></div>
+              <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-full flex justify-centes text-center flex items-center">
+                <small className="flex text-center font-bold ml-2">Preço: 25.000,00 Mt</small>
+              </div>
               <Image  src={'/Growcol-hybrid.png'}
                 width="0"
                 height="0"
@@ -52,7 +56,9 @@ export default function MenuItem() {
                 </Link>    
             </div>
             <div className="shadow-md p-2">
-              <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-1/2 flex justify-centes text-center flex items-center"><small className="flex text-center font-bold ml-2">Preço: 13.500,00 Mt</small></div>
+              <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-full flex justify-centes text-center flex items-center">
+                <small className="flex text-center font-bold ml-2">Preço: 13.500,00 Mt</small>
+              </div>
                 <Image  src={'/Growcol-51.8V.jpg'}
                   width="0"
                   height="0"
@@ -67,7 +73,9 @@ export default function MenuItem() {
                   </Link>
             </div>
             <div className="shadow-md p-2">
-              <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-1/2 flex justify-centes text-center flex items-center"><small className="flex text-center font-bold ml-2">Preço: 80,00 Mt (p/m)</small></div>
+              <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-full flex justify-centes text-center flex items-center">
+                <small className="flex text-center font-bold ml-2">Preço: 80,00 Mt (p/m)</small>
+              </div>
                 <Image  src={'/Solar-Cables.jpg'}
                   width="0"
                   height="0"
@@ -86,13 +94,15 @@ export default function MenuItem() {
       <section className="mt-8">
         <div className="grid sm:grid-cols-4 gap-4 mt-2">
             <div className="shadow-md p-2">
-              <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-1/2 flex justify-centes text-center flex items-center"><small className="flex text-center font-bold ml-2">Preço: 350,00 Mt(p/m)</small></div>
+              <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-full flex justify-centes text-center flex items-center">
+                <small className="flex text-center font-bold ml-2">Preço: 200,00 Mt p/m</small>
+              </div>
               <Image  src={'/GC16MMBC-BATTERY-CABLE-16MM-RED-GC-Solar.webp'}
               width="0"
               height="0"
               sizes="100vw"
               className="w-full h-auto" alt={'sallad'} />
-              <small className="text-primary font-bold">Cabo de Baterria 16mm Vermelho</small>
+              <small className="text-primary font-bold">Cabo de Baterria 25mm Vermelho</small>
               <Link href="https://api.whatsapp.com/send?phone=258871191481" onClick={() => setIdProduto("4")}>
                   <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">
                     Detalhes
@@ -101,7 +111,9 @@ export default function MenuItem() {
               </Link> 
             </div>
             <div className="shadow-md p-2">
-              <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-1/2 flex justify-centes text-center flex items-center"><small className="flex text-center font-bold ml-2">Preço: 550,00 Mt(p/m)</small></div>
+              <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-full flex justify-centes text-center flex items-center">
+                <small className="flex text-center font-bold ml-2">Preço: 200,00 Mt p/m</small>
+              </div>
               <Image  src={'/BATT35MM-BATTERY-CABLE-35MM-RED-GC-Solar-Black.webp'}
               width="0"
               height="0"
@@ -116,14 +128,16 @@ export default function MenuItem() {
               </Link> 
             </div>
             <div className="shadow-md p-2">
-              <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-1/2 flex justify-centes text-center flex items-center"><small className="flex text-center font-bold ml-2">Preço: 700,00 Mt</small></div>
-                <Image  src={'/solar-extension-cable-1m-1.png'}
+              <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-full flex justify-centes text-center flex items-center">
+                <small className="flex text-center font-bold ml-2">Preço: 3.000,00 Mt</small>
+              </div>
+                <Image  src={'/Controlador de Carga 50ah.webp'}
                   width="0"
                   height="0"
                   sizes="100vw"
                   className="w-full h-auto" alt={'sallad'} />
-                  <small className="text-primary font-bold">Cabo de extensão solar 1X6MM2 1M</small>
-                  <Link href="https://api.whatsapp.com/send?phone=258871191481" onClick={() => setIdProduto("6")}>
+                  <small className="text-primary font-bold">Controlador de Carga 50 Ah</small>
+                  <Link href="https://api.whatsapp.com/send?phone=258871191481" onClick={() => setIdProduto("36")}>
                       <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">            
                       Detalhes
                         <Right />
@@ -131,14 +145,16 @@ export default function MenuItem() {
                   </Link>
             </div>
             <div className="shadow-md p-2">
-              <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-1/2 flex justify-centes text-center flex items-center"><small className="flex text-center font-bold ml-2">Preço: 5.300,00 Mt</small></div>
-                <Image  src={'/loop.jpg'}
+              <div className="bg-gradient-to-r from-red-600 to-orange-600 text-white text-sm rounded-xl w-full flex justify-centes text-center flex items-center">
+                <small className="flex text-center font-bold ml-2">Preço: 24.000,00 Mt</small>
+              </div>
+                <Image  src={'/Bateria de Gel AGM Solar KLC12V.jpeg'}
                   width="0"
                   height="0"
                   sizes="100vw"
                   className="w-full h-auto" alt={'sallad'} />
-                  <small className="text-primary font-bold">Victron – interface MK3-USB (VE.Bus para USB)</small>
-                  <Link href="https://api.whatsapp.com/send?phone=258871191481" onClick={() => setIdProduto("7")}>
+                  <small className="text-primary font-bold">Bateria de Gel AGM Solar KLC 12V</small>
+                  <Link href="https://api.whatsapp.com/send?phone=258871191481" onClick={() => setIdProduto("14")}>
                       <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">            
                       Detalhes
                         <Right />
