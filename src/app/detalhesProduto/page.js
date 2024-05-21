@@ -766,7 +766,7 @@ const listaProdutos = [
     propriedades2: "",
   },
   {
-    id: "66",
+    id: "67",
     nomeProduto: "Cabo solar preto 4mm",
     img: "/Cabo solar preto 4mm.jpeg",
     descricao: "",
@@ -784,72 +784,94 @@ export default function DetalhesProdutos() {
   useEffect(() => {
     setIdProduto(localStorage.getItem("id"));
   }, [])
+  
   return (
     <section className="mt-8">
         {listaProdutos.map((select) => 
                 <>
                 {select.id === idProduto && (
-                    <div className="grid sm:grid-cols-3 gap-4 mt-2">
-                    <div className="shadow-md p-2">
-                    <Image  src={select.img}
-                            width="0"
-                            height="0"
-                            sizes="100vw"
-                            className="w-full h-auto" alt={'sallad'} />
-                        
+                  <>
+                    <div className="grid sm:grid-cols-3 gap-4 mt-2 mb-12">
+                      <div className="shadow-md p-2">
+                      <Image  src={select.img}
+                              width="0"
+                              height="0"
+                              sizes="100vw"
+                              className="w-full h-auto" alt={'sallad'} />
+                          
+                      </div>
+                      <div className="shadow-md p-2">
+                          <div className="text-center text-primary font-semibold text-3xl">{select.nomeProduto}</div>
+                          <div className="flex flex-row gap-2">
+                              <div>
+                              <small className="flex flex-row">
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" className="w-4 h-4 text-primary">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" className="w-4 h-4 text-primary">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" className="w-4 h-4 text-primary">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" className="w-4 h-4 text-primary">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" className="w-4 h-4 text-primary">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                  </svg>
+                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" className="w-4 h-4 text-primary">
+                                      <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                  </svg>
+                                  <h3>Quantas estrelas da a este produto?</h3>
+                              </small>
+                              </div>
+                          </div>
+                          <div className="text-primary font-semibold text-xl mt-4">Propriedades</div>                        
+                          <ul className="list-disc ml-6">
+                              <li><small className=" flex text-justify font-semibold">{select.propriedades}</small></li>
+                              <li><small className=" flex text-justify font-semibold">{select.propriedades1}</small></li>
+                              <li><small className=" flex text-justify font-semibold">{select.propriedades2}</small></li>
+                          </ul>
+                          <div className="text-primary font-semibold text-xl mt-4">Descrição</div>
+                          <small className=" flex text-justify">{select.descricao}</small>
+                          <div className="text-primary font-semibold text-xl mt-4">Categoria</div>
+                          <ul className="list-disc ml-6">
+                              <li><small className=" flex text-justify font-bold">{select.categoria}</small></li>
+                          </ul>
+                      </div>
+                      <div className="shadow-md p-2">
+                      <div className="text-primary font-semibold text-3xl">Preço: {select.preco}</div>
+                      <div className="text-primary font-semibold text-xl">Em Estoque</div>
+                      <div className="mt-64">
+                          <Link href="https://api.whatsapp.com/send?phone=258871191481">
+                              <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">            
+                              Solicitar Cotação
+                              </button>
+                          </Link> 
+                      </div>          
+                      </div>
                     </div>
-                    <div className="shadow-md p-2">
-                        <div className="text-center text-primary font-semibold text-3xl">{select.nomeProduto}</div>
-                        <div className="flex flex-row gap-2">
-                            <div>
-                            <small className="flex flex-row">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" className="w-4 h-4 text-primary">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
-                                </svg>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" className="w-4 h-4 text-primary">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
-                                </svg>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" className="w-4 h-4 text-primary">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
-                                </svg>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" className="w-4 h-4 text-primary">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
-                                </svg>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" className="w-4 h-4 text-primary">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
-                                </svg>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" className="w-4 h-4 text-primary">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
-                                </svg>
-                                <h3>Quantas estrelas da a este produto?</h3>
-                            </small>
-                            </div>
-                        </div>
-                        <div className="text-primary font-semibold text-xl mt-4">Propriedades</div>                        
-                        <ul className="list-disc ml-6">
-                            <li><small className=" flex text-justify font-semibold">{select.propriedades}</small></li>
-                            <li><small className=" flex text-justify font-semibold">{select.propriedades1}</small></li>
-                            <li><small className=" flex text-justify font-semibold">{select.propriedades2}</small></li>
-                        </ul>
-                        <div className="text-primary font-semibold text-xl mt-4">Descrição</div>
-                        <small className=" flex text-justify">{select.descricao}</small>
-                        <div className="text-primary font-semibold text-xl mt-4">Categoria</div>
-                        <ul className="list-disc ml-6">
-                            <li><small className=" flex text-justify font-bold">{select.categoria}</small></li>
-                        </ul>
+                    
+                    <span className="text-primary font-bold">
+                      Produtos Relacionados
+                    </span>
+                    <div className="grid sm:grid-cols-9 gap-4 mt-2">
+                    {listaProdutos.map((lect) => 
+                      <>
+                        {select.categoria === lect.categoria && (
+                          <div className="shadow-md p-2" onClick={() => setIdProduto(lect.id)}>
+                            <Image  src={lect.img}
+                              width="0"
+                              height="0"
+                              sizes="100vw"
+                              className="w-full h-auto" alt={'sallad'} />             
+                          </div>
+                        )}
+                      </>
+                    )}                    
                     </div>
-                    <div className="shadow-md p-2">
-                    <div className="text-primary font-semibold text-3xl">Preço: {select.preco}</div>
-                    <div className="text-primary font-semibold text-xl">Em Estoque</div>
-                    <div className="mt-64">
-                        <Link href="https://api.whatsapp.com/send?phone=258871191481">
-                            <button className="flex justify-center bg-primary flex items-center gap-2 text-white px-2 py-2 rounded-full mt-4">            
-                            Solicitar Cotação
-                            </button>
-                        </Link> 
-                    </div>          
-                    </div>
-                </div>
+                  </>
                 )}
                 
                 </>

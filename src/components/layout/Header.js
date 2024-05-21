@@ -49,7 +49,7 @@ export default function Header() {
         <Link className="text-primary font-semibold text-2xl" href={'/'}>
           TLHAVIKA 
         </Link>
-        <div className="flex gap-8 items-center">
+        {/* <div className="flex gap-8 items-center">
           <Link href={'/cart'} className="relative">
             <ShoppingCart />
             {cartProducts?.length > 0 && (
@@ -63,7 +63,7 @@ export default function Header() {
             onClick={() => setMobileNavOpen(prev => !prev)}>
             <Bars2 />
           </button>
-        </div>
+        </div> */}
       </div>
       {mobileNavOpen && (
         <div

@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Right from "@/components/icons/Right";
 import { useRouter } from "next/navigation";
+import Bars2 from "@/components/icons/Bars2";
 const listaProdutos = [
   {
   id: "0",
@@ -768,7 +769,7 @@ const listaProdutos = [
   propriedades2: "",
 },
 {
-  id: "66",
+  id: "67",
   nomeProduto: "Cabo solar preto 4mm",
   img: "/Cabo solar preto 4mm.jpeg",
   descricao: "",
@@ -784,6 +785,7 @@ export default function TodosProdutos() {
     const [categories, setCategories] = useState([]);
     const [categoriaClicked, setCategoriaClicked] = useState("");
     const [idProduto, setIdProduto] = useState("");
+    const [mobileNavOpen, setMobileNavOpen] = useState(false);
     useEffect(() => {
         localStorage.setItem("id", idProduto);
         if (idProduto === "") {      
@@ -797,7 +799,16 @@ export default function TodosProdutos() {
     }
   return (
     <section className="mt-8">
-        <div className="grid sm:grid-cols-9 gap-4 mt-2">
+      <button
+            className="p-1 border"
+            onClick={() => setMobileNavOpen(prev => !prev)}>
+            <Bars2 />
+          </button>
+          {mobileNavOpen && (
+        <div
+          onClick={() => setMobileNavOpen(false)}
+          className="md:hidden p-4 bg-gray-200 rounded-lg mt-2 flex flex-col gap-2 text-center">
+          <div className="grid sm:grid-cols-9 gap-4 mt-2">
             <div className="shadow-md p-2">
                 <div className="text-center text-primary font-semibold"  onClick={() => setCategoriaClicked("Inversor")}>Inversores</div>             
             </div>
@@ -822,7 +833,10 @@ export default function TodosProdutos() {
             <div className="shadow-md p-2">
                 <div className="text-center text-primary font-semibold"  onClick={() => setCategoriaClicked("Motor")}>Motores</div>
             </div>
+          </div>
         </div>
+      )}
+        
         <div className="flex flex-col justify-center max-w-6xl mx-auto">
             <section className="mt-8">
                 
